@@ -12,11 +12,10 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
-from .secret_key import SECRET_KEY
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
+SECRET_KEY = 'heroku-key'
 
 ALLOWED_HOSTS = ['django-app', '127.0.0.1', 'localhost', '0.0.0.0']
 
