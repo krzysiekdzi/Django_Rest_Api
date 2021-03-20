@@ -9,15 +9,9 @@ All components run on separate Docker conainters
 
 # Running application
 
-<<<<<<< HEAD
-Application runs on heroku at https://example-car-rest-api.herokuapp.com/
-
-Application launching is like any other using docker compose, just build and 'up' the containers.
-=======
 Application runs on Google Cloud at http://34.89.155.42/cars
 
 Local application launching is like any other using docker compose, just build and 'up' the containers.
->>>>>>> ec995b4... basic_rest_api
 
 To run unit tests locally no Django framework is required. Just cd to rest_api and run
 python3 -m main.tests
