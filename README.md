@@ -9,8 +9,7 @@ All components run on separate Docker conainters
 
 # Running application
 
-Application needs to run SECRET_KEY value stored in rest_api/rest_api/secret_key.py
-which file is not included in the repository.
+Application runs on heroku at https://example-car-rest-api.herokuapp.com/
 
 Application launching is like any other using docker compose, just build and 'up' the containers.
 
